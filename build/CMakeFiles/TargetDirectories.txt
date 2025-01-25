@@ -1,0 +1,3 @@
+C:/Users/usr/Desktop/oleg/project/build/CMakeFiles/my_program.dir
+C:/Users/usr/Desktop/oleg/project/build/CMakeFiles/edit_cache.dir
+C:/Users/usr/Desktop/oleg/project/build/CMakeFiles/rebuild_cache.dir
