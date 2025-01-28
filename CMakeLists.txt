@@ -14,6 +14,8 @@ include_directories(include/glfw)
 include_directories(include/glew)
 
 include_directories(math)
+include_directories(math)
+include_directories(src)
 
 # ”казываем пути к библиотекам
 link_directories(lib)

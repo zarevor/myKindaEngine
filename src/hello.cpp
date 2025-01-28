@@ -7,6 +7,8 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
+#include<Core/Application/Application.h>
+
  
 
 // Вершинный шейдер
@@ -56,7 +58,7 @@ int main() {
         std::cerr << "ERROR::GLFW::INIT_FAILED" << std::endl;
         return -1;
     }
-	glm::mat4 model = glm::mat4(1.0f);
+	
 
     // Создание окна
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);

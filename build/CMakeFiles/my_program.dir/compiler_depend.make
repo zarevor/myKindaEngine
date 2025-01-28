@@ -383,7 +383,8 @@ CMakeFiles/my_program.dir/src/hello2.cpp.obj: C:/Users/usr/Desktop/oleg/project/
   C:/Users/usr/Desktop/oleg/project/math/glm/vec2.hpp \
   C:/Users/usr/Desktop/oleg/project/math/glm/vec3.hpp \
   C:/Users/usr/Desktop/oleg/project/math/glm/vec4.hpp \
-  C:/Users/usr/Desktop/oleg/project/math/glm/vector_relational.hpp
+  C:/Users/usr/Desktop/oleg/project/math/glm/vector_relational.hpp \
+  C:/Users/usr/Desktop/oleg/project/src/Core/Application/Application.h
 
 
 C:/Users/usr/Desktop/oleg/project/math/glm/gtc/epsilon.inl:
@@ -577,6 +578,8 @@ C:/Users/usr/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/
 C:/Users/usr/Desktop/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
 
 C:/Users/usr/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ranges_base.h:
+
+C:/Users/usr/Desktop/oleg/project/src/Core/Application/Application.h:
 
 C:/Users/usr/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf.tcc:
 
