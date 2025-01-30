@@ -2,4 +2,9 @@
 
 
 
-struct Some{int x =10;};
+struct Some{
+	
+	
+	
+	
+	int x =10;};
