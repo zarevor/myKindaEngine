@@ -1,5 +1,5 @@
-CMakeFiles/my_program.dir/src/hello2.cpp.obj: \
- C:\Users\usr\Desktop\oleg\project\src\hello2.cpp \
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj: \
+ C:\Users\usr\Desktop\oleg\project\src\CubeAndSphere.cpp \
  C:/Users/usr/Desktop/oleg/project/include/GL/glew.h \
  C:/Users/usr/Desktop/mingw64/x86_64-w64-mingw32/include/inttypes.h \
  C:/Users/usr/Desktop/mingw64/x86_64-w64-mingw32/include/crtdefs.h \

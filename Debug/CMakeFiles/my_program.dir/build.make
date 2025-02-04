@@ -68,29 +68,29 @@ include CMakeFiles/my_program.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_program.dir/flags.make
 
-CMakeFiles/my_program.dir/src/hello2.cpp.obj: CMakeFiles/my_program.dir/flags.make
-CMakeFiles/my_program.dir/src/hello2.cpp.obj: CMakeFiles/my_program.dir/includes_CXX.rsp
-CMakeFiles/my_program.dir/src/hello2.cpp.obj: C:/Users/usr/Desktop/oleg/project/src/hello2.cpp
-CMakeFiles/my_program.dir/src/hello2.cpp.obj: CMakeFiles/my_program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\usr\Desktop\oleg\project\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_program.dir/src/hello2.cpp.obj"
-	C:\Users\usr\Desktop\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/src/hello2.cpp.obj -MF CMakeFiles\my_program.dir\src\hello2.cpp.obj.d -o CMakeFiles\my_program.dir\src\hello2.cpp.obj -c C:\Users\usr\Desktop\oleg\project\src\hello2.cpp
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj: CMakeFiles/my_program.dir/includes_CXX.rsp
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj: C:/Users/usr/Desktop/oleg/project/src/CubeAndSphere.cpp
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\usr\Desktop\oleg\project\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj"
+	C:\Users\usr\Desktop\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj -MF CMakeFiles\my_program.dir\src\CubeAndSphere.cpp.obj.d -o CMakeFiles\my_program.dir\src\CubeAndSphere.cpp.obj -c C:\Users\usr\Desktop\oleg\project\src\CubeAndSphere.cpp
 
-CMakeFiles/my_program.dir/src/hello2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_program.dir/src/hello2.cpp.i"
-	C:\Users\usr\Desktop\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\usr\Desktop\oleg\project\src\hello2.cpp > CMakeFiles\my_program.dir\src\hello2.cpp.i
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.i"
+	C:\Users\usr\Desktop\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\usr\Desktop\oleg\project\src\CubeAndSphere.cpp > CMakeFiles\my_program.dir\src\CubeAndSphere.cpp.i
 
-CMakeFiles/my_program.dir/src/hello2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/src/hello2.cpp.s"
-	C:\Users\usr\Desktop\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\usr\Desktop\oleg\project\src\hello2.cpp -o CMakeFiles\my_program.dir\src\hello2.cpp.s
+CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.s"
+	C:\Users\usr\Desktop\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\usr\Desktop\oleg\project\src\CubeAndSphere.cpp -o CMakeFiles\my_program.dir\src\CubeAndSphere.cpp.s
 
 # Object files for target my_program
 my_program_OBJECTS = \
-"CMakeFiles/my_program.dir/src/hello2.cpp.obj"
+"CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj"
 
 # External object files for target my_program
 my_program_EXTERNAL_OBJECTS =
 
-my_program.exe: CMakeFiles/my_program.dir/src/hello2.cpp.obj
+my_program.exe: CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj
 my_program.exe: CMakeFiles/my_program.dir/build.make
 my_program.exe: CMakeFiles/my_program.dir/linkLibs.rsp
 my_program.exe: CMakeFiles/my_program.dir/objects1.rsp

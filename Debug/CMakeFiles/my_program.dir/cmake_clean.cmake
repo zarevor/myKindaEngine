@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_program.dir/src/hello2.cpp.obj"
-  "CMakeFiles/my_program.dir/src/hello2.cpp.obj.d"
+  "CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj"
+  "CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj.d"
   "libmy_program.dll.a"
   "my_program.exe"
   "my_program.exe.manifest"

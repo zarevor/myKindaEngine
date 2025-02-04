@@ -31,6 +31,7 @@ void generateSphere(float radius, int slices, int stacks, std::vector<glm::vec3>
 			
 			unsigned int first = (i * (slices + 1)) + j;
             unsigned int second = first + slices + 1;
+			if(i<stacks&&j<slices){
 
             // Добавляем два треугольника на каждую "квадратную" часть сферы
             indices.push_back(first);
@@ -40,7 +41,7 @@ void generateSphere(float radius, int slices, int stacks, std::vector<glm::vec3>
             indices.push_back(second);
             indices.push_back(second + 1);
             indices.push_back(first + 1);
-									
+			}
 
             // Добавляем координаты в массив вершин
             vertices.push_back(glm::vec3(x, y, z));
@@ -88,14 +89,18 @@ GLuint indices[] = {
 };
 
 float angle = 0.0f; // Угол вращения
+static float delta = 0.f;
 
 void display() {
+	
+	
+	
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Очистка буферов
 
     glEnableClientState(GL_VERTEX_ARRAY); // Включаем массив вершин
     glVertexPointer(3, GL_FLOAT, 0, verticesS.data()); // Указываем массив вершин
 	
-	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+	glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
     glDrawElements(GL_TRIANGLES, indicesS.size(), GL_UNSIGNED_INT, indicesS.data()); // Рисуем куб
 

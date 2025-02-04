@@ -128,29 +128,29 @@ my_program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/build
 .PHONY : my_program/fast
 
-src/hello2.obj: src/hello2.cpp.obj
-.PHONY : src/hello2.obj
+src/CubeAndSphere.obj: src/CubeAndSphere.cpp.obj
+.PHONY : src/CubeAndSphere.obj
 
 # target to build an object file
-src/hello2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/src/hello2.cpp.obj
-.PHONY : src/hello2.cpp.obj
+src/CubeAndSphere.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.obj
+.PHONY : src/CubeAndSphere.cpp.obj
 
-src/hello2.i: src/hello2.cpp.i
-.PHONY : src/hello2.i
+src/CubeAndSphere.i: src/CubeAndSphere.cpp.i
+.PHONY : src/CubeAndSphere.i
 
 # target to preprocess a source file
-src/hello2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/src/hello2.cpp.i
-.PHONY : src/hello2.cpp.i
+src/CubeAndSphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.i
+.PHONY : src/CubeAndSphere.cpp.i
 
-src/hello2.s: src/hello2.cpp.s
-.PHONY : src/hello2.s
+src/CubeAndSphere.s: src/CubeAndSphere.cpp.s
+.PHONY : src/CubeAndSphere.s
 
 # target to generate assembly for a file
-src/hello2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/src/hello2.cpp.s
-.PHONY : src/hello2.cpp.s
+src/CubeAndSphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_program.dir\build.make CMakeFiles/my_program.dir/src/CubeAndSphere.cpp.s
+.PHONY : src/CubeAndSphere.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_program
-	@echo ... src/hello2.obj
-	@echo ... src/hello2.i
-	@echo ... src/hello2.s
+	@echo ... src/CubeAndSphere.obj
+	@echo ... src/CubeAndSphere.i
+	@echo ... src/CubeAndSphere.s
 .PHONY : help
 
 

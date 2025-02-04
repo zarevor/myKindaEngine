@@ -14,7 +14,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
 
 
 # Задаем имя проекта
-project(MyProject)
+project(MyProject CXX)
 
 
 
@@ -27,13 +27,15 @@ include_directories(include/glew)
 include_directories(math)
 include_directories(math)
 include_directories(src)
+include_directories(src/Graphics/glsl)
+
 include_directories(imgui)
 
 # Указываем пути к библиотекам
 link_directories(lib)
 
 # Добавляем исполняемый файл
-add_executable(my_program src/hello2.cpp)
+add_executable(my_program src/CubeAndSphere.cpp)
 
 # Связываем библиотеки с проектом
 target_link_libraries(my_program glfw3 glew32 opengl32 gdi32 user32)
